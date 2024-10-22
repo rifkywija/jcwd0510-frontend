@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.konten{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 450px;
+    width: 650px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 25%;
+    background-color: blue;
+}
+
+.konten img{
+    padding: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.konten h1{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+.konten p{
+    font-size: 20px;
+    margin-top: 5px;
+    color: whitesmoke;
+}
+
+.konten button{
+    height: 40px;
+    width: 70px;
+    margin-top: 10px;
+    border: 2px double black;
+    background: whitesmoke;
+    color:black;
+    font-size: 15px;
+    border-width: 4px;
+}
+
+.konten button:hover{
+    background: red;
+    color: white;
+}
