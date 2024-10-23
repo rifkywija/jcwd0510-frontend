@@ -5,29 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grid</title>
     <style>
-        .content{
-            display: grid;
-            column-gap: 10px;
-            margin-bottom: 20px;
-            row-gap: 10px;
-        }
-        .content div{
-            background-color: lightslategray;
-            padding: 30px;
-            border: 1px solid black;
-        }
+      .content {
+        display: grid;
+        column-gap: 10px;
+        margin-bottom: 20px;
+        row-gap: 10px;
+      }
+      .content div {
+        background-color: lightslategray;
+        padding: 30px;
+        border: 1px solid black;
+      }
 
-        @media(max-width: 480px){
-            .content{
-                grid-template-columns: 1fr;
-            }
+      @media (max-width: 480px) {
+        .content {
+          grid-template-columns: 1fr;
         }
-        
-        @media(min-width: 481px){
-            .content{
-                grid-template-columns: 1fr 1fr 1fr;
-            }
+      }
+
+      @media (min-width: 481px) {
+        .content {
+          grid-template-columns: 1fr 1fr 1fr;
         }
+      }
     </style>
   </head>
   <body>
